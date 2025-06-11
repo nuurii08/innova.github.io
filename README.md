@@ -4,9 +4,9 @@
 
 Navegación:
 
--Desde la pantalla de inicio, se puede acceder a las distintas secciones mediante botones.
--En todas las pantallas, excepto en la de login, hay un enlace al inicio de sesión.
--Una vez iniciada la sesión, la página de login redirige automáticamente a datos_pacientes.xml, donde se muestran los datos de los pacientes registrados.
+- Desde la pantalla de inicio, se puede acceder a las distintas secciones mediante botones.
+- En todas las pantallas, excepto en la de login, hay un enlace al inicio de sesión.
+- Una vez iniciada la sesión, la página de login redirige automáticamente a datos_pacientes.xml, donde se muestran los datos de los pacientes registrados.
 
 Archivos de la Página Web y Asociados:
 Las siguientes pestañas de la web cuentan con los siguientes archivos:
