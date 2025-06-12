@@ -1,0 +1,96 @@
+.about {
+	background: #bee3f8;
+	padding: 6rem 1rem;
+}
+
+/* Títulos de secciones */
+.about .title,
+.about .section-title {
+	font-size: 2.5rem;
+	color: #60a5fa;
+	text-align: center;
+	margin: 3rem auto 2rem auto;
+	font-weight: 700;
+}
+
+/* Contenedor común para todas las subsecciones */
+.about .block {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 2rem 3rem;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.about .block p,
+.about .our-team p,
+.about .our-history p, 
+.about .location-row p {
+	font-size: 1.6rem;
+	color: #000;
+	line-height: 1.6;
+	margin-bottom: 2rem;
+	text-align: justify;
+}
+
+/* Imagen del equipo */
+.about .our-team img {
+	height: auto;
+	max-height: 200px;
+	max-width: 800px;
+	margin: 0 auto;
+	display: block;
+}
+
+/* Imagen en localización */
+.about .location-row .image img {
+	height: auto;
+	max-height: 20vh;
+	max-width: 150px;
+	margin: 0 auto;
+	display: block;
+}
+
+/* Misión, visión, valores */
+.about .mission-vision-values h3 {
+	font-size: 2rem;
+	color: #60a5fa;
+	margin-top: 2rem;
+	margin-bottom: 0.5rem;
+}
+
+/* Fondos con imágenes entre secciones */
+.full-screen-bg {
+	width: 100vw;
+	height: 30vh;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/* Título con imagen de fondo */
+.title-background {
+	background: url('images/nosotros.jpg') no-repeat center center;
+	background-size: cover;
+	height: 30vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.title-background .heading {
+	color: white;
+	font-size: 3rem;
+	text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+	margin: 0;
+}
+
+/* Pie de página */
+.footer {
+	text-align: center;
+	background: #60a5fa;
+	color: white;
+	padding: 2rem 1rem;
+}

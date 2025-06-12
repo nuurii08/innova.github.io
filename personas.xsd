@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="pacientes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="paciente" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              
+              <xs:element name="informacion">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="nombre" type="xs:string"/>
+                    <xs:element name="edad" type="xs:positiveInteger"/>
+                    <xs:element name="id">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:pattern value="PT-\d{5}"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="fechaRegistro" type="xs:date"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+              <xs:element name="resultados">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="parasito" type="xs:string"/>
+                    <xs:element name="conteo" type="xs:string"/>
+                    <xs:element name="grado" type="xs:string"/>
+                    <xs:element name="observaciones" type="xs:string"/>
+                    <xs:element name="fechaAnalisis" type="xs:date"/>
+					<xs:element name="diagnostico">
+					<xs:simpleType>
+					  <xs:restriction base="xs:string">
+						<xs:enumeration value="PV"/>
+						<xs:enumeration value="PF"/>
+						<xs:enumeration value="Uninfected"/>
+					  </xs:restriction>
+					</xs:simpleType>
+				  </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+              <xs:element name="imagenes" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="imagen" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="descripcion" type="xs:string"/>
+                          <xs:element name="archivo" type="xs:string"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

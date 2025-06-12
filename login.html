@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo">
+            <img src="images/Logo Innova.png" alt="Logo de Innova" style="height: 40px;">
+        </a>
+        
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="producto.html" class="course-link">Descarga</a></li>
+                <li><a href="nosotros.html" class="us-link">Nosotros</a></li>
+                <li><a href="contacto.html" class="contact-link">Contacto</a></li>
+
+            </ul>
+        </nav>
+        
+        <div class="fas fa-bars"></div>
+    </header>
+
+    <section class="login-section">
+        <h2>Iniciar sesión</h2>
+        <form id="loginForm" onsubmit="return validarLogin(event)">
+            <input type="text" id="username" placeholder="Usuario" required>
+            <input type="password" id="password" placeholder="Contraseña" required>
+            <input type="submit" value="Entrar">
+        </form>
+    </section>
+
+    <footer>
+        <div class="icons">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-reddit"></a>
+        </div>
+    </footer>
+
+    <script>
+    function validarLogin(event) {
+        event.preventDefault();
+
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+
+        if (username === "" || password === "") {
+            alert("Por favor ingresa usuario y contraseña.");
+        } else {
+            alert("Inicio de sesión exitoso.");
+            window.location.href = "datos_pacientes.xml";
+        }
+    }
+
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Innova</title>
+
+    <!-- Hojas de estilo -->
+	    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="producto.css" />
+
+    <!-- FontAwesome para los iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+</head>
+<body  class="page-product">
+      <header>
+        <a href="#" class="logo">
+            <img src="images/Logo Innova.png" alt="Logo de Innova" style="height: 40px;">
+        </a>
+		<div class="header-right">
+			<a href="login.html" class="btn-header">Iniciar Sesión</a>
+		</div>
+        
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="producto.html" class="course-link">Descarga</a></li>
+                <li><a href="nosotros.html" class="us-link">Nosotros</a></li>
+                <li><a href="contacto.html" class="contact-link">Contacto</a></li>
+            </ul>
+        </nav>
+        
+        <div class="fas fa-bars"></div>
+    </header>
+	<section class="product" id="product"> 
+		<div class="title-background">
+                <h1 class="heading">PlasmoTrack</h1>
+        </div>
+		<div class="box-container">
+			<div class="box">
+				<i class="fab fa-windows fa-3x" style="color:#fff;"></i>
+				<h3>APP Windows</h3>
+				<p>Available for download</p>
+				<button onclick="window.location.href='PlasmoTrack/for_testing/PlasmoTrack.exe'">Descargar</button>
+			</div>
+			<div class="box">
+				<i class="fab fa-apple fa-3x" style="color:#fff;"></i>
+				<h3>APP iOS</h3>
+				<p>Available for download</p>
+				<button onclick="window.location.href='PlasmoTrack/for_testing/PlasmoTrack.exe'">Descargar</button>
+			</div>
+			<div class="box">
+				<i class="fab fa-android fa-3x" style="color:#fff;"></i>
+				<h3>APP Android</h3>
+				<p>Available for download</p>
+				<button onclick="window.location.href='PlasmoTrack/for_testing/PlasmoTrack.exe'">Descargar</button>
+			</div>
+		</div>
+	</section>
+	<!-- Explicación del producto y enlace al PDF -->
+	<section class="product-description">
+	  <div class="box">
+		<h2>Instrumento para Detección de Malaria</h2>
+		<p>Este innovador dispositivo permite una detección rápida y confiable de la malaria, facilitando el diagnóstico y tratamiento oportuno.</p>
+		<a href="Malaria Software Instrucciones uso.pdf" download>
+		  <button type="button">Descargar instrucciones de uso (PDF)</button>
+		</a>
+	  </div>
+	</section>
+	<footer class="footer">
+    <p>© 2025 Innova. Todos los derechos reservados.</p>
+	</footer>
+</body>
+</html>
