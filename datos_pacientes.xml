@@ -1,5 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="personas.xslt"?>
 <pacientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="personas.xsd">
-
+   <paciente>
+      <informacion>
+         <nombre>Iker</nombre>
+         <edad>23</edad>
+         <id>PT-12345</id>
+         <fechaRegistro>2025-06-12</fechaRegistro>
+      </informacion>
+      <resultados>
+         <parasito>Plasmodium falciparum</parasito>
+         <conteo>0</conteo>
+         <grado>Baja</grado>
+         <observaciones>Sin infección detectada. Advertencia: El conteo es 0; el diagnóstico podría ser incorrecto. Verifique la imagen.</observaciones>
+         <fechaAnalisis>2025-06-12</fechaAnalisis>
+         <diagnostico>PF</diagnostico>
+      </resultados>
+      <imagenes>
+         <imagen>
+            <descripcion>Frotis de sangre</descripcion>
+            <archivo>imagenes2\20190405_152552.jpg</archivo>
+         </imagen>
+      </imagenes>
+   </paciente>
+   <paciente>
+      <informacion>
+         <nombre>eugenio</nombre>
+         <edad>23</edad>
+         <id>PT-12334</id>
+         <fechaRegistro>2025-06-12</fechaRegistro>
+      </informacion>
+      <resultados>
+         <parasito>N/A</parasito>
+         <conteo>N/A</conteo>
+         <grado>N/A</grado>
+         <observaciones>Observaciones no disponibles para este diagnóstico.</observaciones>
+         <fechaAnalisis>2025-06-12</fechaAnalisis>
+         <diagnostico>Uninfected</diagnostico>
+      </resultados>
+      <imagenes>
+         <imagen>
+            <descripcion>Frotis de sangre</descripcion>
+            <archivo>imagenes2\20171023_111601.jpg</archivo>
+         </imagen>
+      </imagenes>
+   </paciente>
+   <paciente>
+      <informacion>
+         <nombre>eugenio</nombre>
+         <edad>22</edad>
+         <id>PT-12345</id>
+         <fechaRegistro>2025-06-12</fechaRegistro>
+      </informacion>
+      <resultados>
+         <parasito>N/A</parasito>
+         <conteo>N/A</conteo>
+         <grado>N/A</grado>
+         <observaciones>Observaciones no disponibles para este diagnóstico.</observaciones>
+         <fechaAnalisis>2025-06-12</fechaAnalisis>
+         <diagnostico>Uninfected</diagnostico>
+      </resultados>
+      <imagenes>
+         <imagen>
+            <descripcion>Frotis de sangre</descripcion>
+            <archivo>imagenes2\20170705_112620.jpg</archivo>
+         </imagen>
+      </imagenes>
+   </paciente>
+   <paciente>
+      <informacion>
+         <nombre>eugenio</nombre>
+         <edad>29</edad>
+         <id>PT-12345</id>
+         <fechaRegistro>2025-06-12</fechaRegistro>
+      </informacion>
+      <resultados>
+         <parasito>N/A</parasito>
+         <conteo>N/A</conteo>
+         <grado>N/A</grado>
+         <observaciones>Observaciones no disponibles para este diagnóstico.</observaciones>
+         <fechaAnalisis>2025-06-12</fechaAnalisis>
+         <diagnostico>Uninfected</diagnostico>
+      </resultados>
+      <imagenes>
+         <imagen>
+            <descripcion>Frotis de sangre</descripcion>
+            <archivo>imagenes2\20170705_112620.jpg</archivo>
+         </imagen>
+      </imagenes>
+   </paciente>
+   <paciente>
+      <informacion>
+         <nombre>paco</nombre>
+         <edad>41</edad>
+         <id>PT-23456</id>
+         <fechaRegistro>2025-06-12</fechaRegistro>
+      </informacion>
+      <resultados>
+         <parasito>Plasmodium falciparum</parasito>
+         <conteo>1</conteo>
+         <grado>Baja</grado>
+         <observaciones>Infección leve. Monitorización recomendada.</observaciones>
+         <fechaAnalisis>2025-06-12</fechaAnalisis>
+         <diagnostico>PF</diagnostico>
+      </resultados>
+      <imagenes>
+         <imagen>
+            <descripcion>Frotis de sangre</descripcion>
+            <archivo>imagenes2\foto_20250612_112558.jpg</archivo>
+         </imagen>
+      </imagenes>
+   </paciente>
 </pacientes>
